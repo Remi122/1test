@@ -561,7 +561,11 @@ h2 {
 }
 
 /*---------------------FOOTER-------------------------*/
-.footer__links {
+.footer {
+  background-color: #d85a00;
+}
+
+.footer .footer__links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -572,17 +576,13 @@ h2 {
   width: 35%;
 }
 
-.footer__link {
+.footer .footer__link {
   padding-bottom: 16px;
   cursor: pointer;
 }
 
-.footer__title {
+.footer .footer__title {
   font-weight: bold;
   font-size: 18px;
-}
-
-.footer {
-  background-color: #d85a00;
 }
 /*# sourceMappingURL=style.css.map */

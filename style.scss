@@ -471,26 +471,21 @@ h2 {
 }
 /*---------------------FOOTER-------------------------*/
 
-
-.footer__links {
-	   
-	display: flex;
-	flex-direction: column;
-	width: 35%;
-}
-
-.footer__link {
-	padding-bottom: 16px;
-	cursor: pointer;
-}
-
-.footer__title {
-	font-weight: bold;
-	font-size: 18px;
-}
-
-
 .footer {
 	   
 	background-color: rgb(216, 90, 0);
+	.footer__links {
+	   
+		display: flex;
+		flex-direction: column;
+		width: 35%;
+	}
+    .footer__link {
+		padding-bottom: 16px;
+		cursor: pointer;
+	}
+    .footer__title {
+		font-weight: bold;
+		font-size: 18px;
+	}
 }
