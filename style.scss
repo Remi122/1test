@@ -1,5 +1,5 @@
 
-
+@import url(variables.scss);
 
 * {
 	font-family: 'Raleway';
@@ -473,7 +473,8 @@ h2 {
 
 .footer {
 	   
-	background-color: rgb(216, 90, 0);
+	background-color: $red;
+	
 	.footer__links {
 	   
 		display: flex;
