@@ -469,22 +469,24 @@ h2 {
 }
 
 
-.footer {
-	   
+
+footer {
 	background-color: $red;
-	
-	.footer__links {
+}
+
+.footer__links {
 	   
-		display: flex;
-		flex-direction: column;
-		width: 35%;
-	}
-    .footer__link {
-		padding-bottom: 16px;
-		cursor: pointer;
-	}
-    .footer__title {
-		font-weight: bold;
-		font-size: 18px;
-	}
+	display: flex;
+	flex-direction: column;
+	width: 35%;
+}
+
+.footer__link {
+	padding-bottom: 16px;
+	cursor: pointer;
+}
+
+.footer__title {
+	font-weight: bold;
+	font-size: 18px;
 }
